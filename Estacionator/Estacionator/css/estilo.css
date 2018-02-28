@@ -1,0 +1,79 @@
+.jumbotron{
+    position: absolute;
+    right: 0;
+}
+.carango, .espaco, .parede{
+    height: 400px;
+    overflow: hidden;
+    float: right;
+    display: inline;
+    z-index: 3;
+}
+.carango{
+    vertical-align: bottom;
+    padding-top: 100px;
+    z-index: 4;
+}
+.espaco{
+    text-align: center;
+    width: 30px;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    height: 135px;
+    position: relative;
+    top: 100px;
+}
+.parede, .status-parede{
+    width: 100px
+}
+.parede{
+    background-image: url("../img/brickwall2.jpg");
+    background-position: initial;
+    background-size: 190px;
+}
+.status{
+    
+}
+.status-espaco{
+    text-align: center;
+    width: 30px;
+    border: 1px solid #666;
+    border-top: none;
+    height: 15px;
+}
+.status-espaco img, .status-espaco span{
+    position: relative;
+    top:15px;
+}
+.status-espaco img{
+    width: 15px;
+}
+.status-espaco span{
+    font-size: 14px;
+}
+.status-espaco span.medida{
+    top: 5px;
+}
+.status-carango{
+}
+.garage{
+    background-image: url("../img/fundo-off.png");
+    background-position: initial;
+    background-size: 625px;
+    background-repeat: no-repeat;
+    height: 231px;
+    overflow: hidden;
+    z-index: 2;
+}
+.garage-bg{
+    background-image: url("../img/fundo-off.png");
+    background-position: initial;
+    background-size: 625px;
+    background-repeat: no-repeat;
+    height: 231px;
+    overflow: hidden;
+    position: absolute;
+    width: 625px;
+    top: 42px;
+    z-index: -1;
+}
